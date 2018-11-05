@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Metodos {
-    //
+    
     public String lecFile(String ruta) throws FileNotFoundException, IOException{        
         BufferedReader bf = new BufferedReader(new FileReader(ruta));
         String linea,lectura="";
